@@ -1,0 +1,54 @@
+/* stylr.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.format-btn {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #00910527;
+    color: #fff;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Added margin-bottom */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.format-btn:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+.format-btn:active {
+    transform: translateY(1px);
+}
+
+h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+#para {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.format-active {
+    background-color: rgba(0, 0, 0, 0.1);
+}
